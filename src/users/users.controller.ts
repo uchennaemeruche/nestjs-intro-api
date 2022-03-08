@@ -7,9 +7,7 @@ import {
   Param,
   Post,
   Put,
-  Req,
 } from '@nestjs/common';
-import { Request } from 'express';
 import { CreateUserDTO } from './dto/create-user.dto';
 import { User, UsersService } from './users.service';
 
