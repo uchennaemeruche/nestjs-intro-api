@@ -5,4 +5,5 @@ export interface CreateUserDTO {
   lastname: string;
   age: number;
   gender: Gender;
+  email: string;
 }
